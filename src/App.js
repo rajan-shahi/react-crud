@@ -5,10 +5,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Create from "./assets/Create";
 import Update from "./assets/Update";
 import { Toaster } from "react-hot-toast";
+// import Demo from "./assets/Demo";
 
 function App() {
   return (
     <div className=" mt-5">
+      {/* <Demo/> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
